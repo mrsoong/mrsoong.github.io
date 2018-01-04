@@ -1,0 +1,41 @@
+.large-font {
+	font-size: 24px;
+}
+
+body {
+	padding-top: 75px;
+	font-family: 'VT323';
+	background-image: url("/images/background.jpg");
+}
+
+.container {
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+.container.bordered {
+	border: 1px solid #ccc;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.row.bordered > div[class*=col-] {
+	border-right: 1px solid #ccc; 
+	border-bottom: 1px solid #ccc;
+}
+
+.row.bordered > div[class*=col-]:first-child {
+	border-left: 1px solid #ccc; 
+	border-top: 1px solid #ccc;
+}
+
+.projects-list {
+	font-family: courier;
+}
+
+.img-thumbnail {
+	width: 150px;
+	height: 300px;
+}
