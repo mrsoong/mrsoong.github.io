@@ -5,7 +5,7 @@
 body {
 	padding-top: 75px;
 	font-family: 'VT323';
-	background-image: url("/images/background.jpg");
+	background-image: url("Media/background.jpg");
 }
 
 .container {
@@ -33,9 +33,4 @@ body {
 
 .projects-list {
 	font-family: courier;
-}
-
-.img-thumbnail {
-	width: 150px;
-	height: 300px;
 }
