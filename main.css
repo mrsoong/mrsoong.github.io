@@ -24,7 +24,12 @@ embed {
 .row {
 	display: flex;
 	flex-wrap: wrap;
+	
+}
+
+.row.projects-list {
 	margin-top: 20px;
+	font-family: courier;
 }
 
 .row.bordered > div[class*=col-] {
@@ -35,8 +40,4 @@ embed {
 .row.bordered > div[class*=col-]:first-child {
 	border-left: 1px solid #ccc; 
 	border-top: 1px solid #ccc;
-}
-
-.projects-list {
-	font-family: courier;
 }
